@@ -4,21 +4,8 @@ _G.plr = game:GetService("Players").LocalPlayer
 _G.TweenService = game:GetService("TweenService")
 _G.Part = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 
-
-
---- VARIAVEIS DE FUNCIONAMENTO---
---- OBS: NÃO ATIVAR OS DOIS AO MESMO TEMPO, LER AS REGRAS ANTES!
----REGRAS: ATIVAR SOMENTE PROXIMOS DOS LOCAIS NUNCA LONGE
----E POSSA TER O RISCO DE TOMAR BAN, ATIVAR JUNTAMENTE COM
----O NOCLIP PARA QUE FUNCIONE SEM ERROR.
-
-_G.FuncionarSpawn = false --- ATIVAR NO SPAWN
-_G.FuncionarRojao = false --- ATIVAR PROXIMO DO NPC DE ROJÃO
-_G.VoltarSpawn = false --- ATIVAR NA FAVELA PARA VOLTAR PRO SPAWN
-_G.IrBanco = false --- ATIVAR NA FAVELA PARA IR PRO BANCO
-
-
 --- VARIAVEIS DE LOCAL ---
+
 _G.Inicial = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(165.067642, 46.8500099, -231.402191)})
 
 _G.Caminho1 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(248.964127, 47.9999924, 72.9024277)})
