@@ -17,7 +17,7 @@ getgenv().Caminho5 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFram
 getgenv().Banco = TweenService:Create(Part, TweenInfo.new(1), {CFrame = CFrame.new(323.613647, 46.7999954, 122.810272)})
 
 getgenv().Rojas1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
-getgenv().Rojas2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
+getgenv().Rojas2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
 
 getgenv().Fita1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1102.28711, 46.6738968, 1117.70972)})
 getgenv().Fita2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1155.66345, 55.9502411, 1230.16406)})
