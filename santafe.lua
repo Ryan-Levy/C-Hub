@@ -48,6 +48,7 @@ if FuncionarSpawn == true then
 
    Rojas1:Play()
    Rojas1.Completed:wait()
+   wait(1)
 
    Fita1:Play()
    Fita1.Completed:wait()
@@ -73,6 +74,7 @@ if FuncionarRojao == true then
 
    Rojas1:Play()
    Rojas1.Completed:wait()
+   wait(1)
 
    Fita1:Play()
    Fita1.Completed:wait()
@@ -98,6 +100,7 @@ if VoltarSpawn == true then
 
    Rojas1:Play()
    Rojas1.Completed:wait()
+   wait(1)
 
    Caminho5:Play()
    Caminho5.Completed:wait()
@@ -123,6 +126,7 @@ if IrBanco == true then
 
    Rojas1:Play()
    Rojas1.Completed:wait()
+   wait(1)
 
    Caminho5:Play()
    Caminho5.Completed:wait()
