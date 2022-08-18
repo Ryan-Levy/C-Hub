@@ -8,11 +8,11 @@ getgenv().Part = game:GetService("Players").LocalPlayer.Character.HumanoidRootPa
 
 getgenv().Inicial = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(165.067642, 46.8500099, -231.402191)})
 
-getgenv().Caminho1 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(248.964127, 47.9999924, 72.9024277)})
-getgenv().Caminho2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(252.720383, 46.7999954, 588.220337)})
-getgenv().Caminho3 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(569.086914, 46.4738922, 752.250793)})
-getgenv().Caminho4 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(597.714478, 46.6738815, 1160.88159)})
-getgenv().Caminho5 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(715.029358, 46.4738922, 1457.61072)})
+getgenv().Caminho1 = TweenService:Create(Part, TweenInfo.new(6), {CFrame = CFrame.new(248.964127, 47.9999924, 72.9024277)})
+getgenv().Caminho2 = TweenService:Create(Part, TweenInfo.new(6), {CFrame = CFrame.new(252.720383, 46.7999954, 588.220337)})
+getgenv().Caminho3 = TweenService:Create(Part, TweenInfo.new(6), {CFrame = CFrame.new(569.086914, 46.4738922, 752.250793)})
+getgenv().Caminho4 = TweenService:Create(Part, TweenInfo.new(6), {CFrame = CFrame.new(597.714478, 46.6738815, 1160.88159)})
+getgenv().Caminho5 = TweenService:Create(Part, TweenInfo.new(6), {CFrame = CFrame.new(715.029358, 46.4738922, 1457.61072)})
 
 getgenv().Banco = TweenService:Create(Part, TweenInfo.new(1), {CFrame = CFrame.new(323.613647, 46.7999954, 122.810272)})
 
