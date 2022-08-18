@@ -1,29 +1,29 @@
 --- VARIAVEIS DE PERSONAGEM ---
 
-local plr = game:GetService("Players").LocalPlayer
-local TweenService = game:GetService("TweenService")
-local Part = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+getgenv().plr = game:GetService("Players").LocalPlayer
+getgenv().TweenService = game:GetService("TweenService")
+getgenv().Part = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 
 --- VARIAVEIS DE LOCAL ---
 
-local Inicial = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(165.067642, 46.8500099, -231.402191)})
+getgenv().Inicial = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(165.067642, 46.8500099, -231.402191)})
 
-local Caminho1 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(248.964127, 47.9999924, 72.9024277)})
-local Caminho2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(252.720383, 46.7999954, 588.220337)})
-local Caminho3 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(569.086914, 46.4738922, 752.250793)})
-local Caminho4 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(597.714478, 46.6738815, 1160.88159)})
-local Caminho5 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(715.029358, 46.4738922, 1457.61072)})
+getgenv().Caminho1 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(248.964127, 47.9999924, 72.9024277)})
+getgenv().Caminho2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(252.720383, 46.7999954, 588.220337)})
+getgenv().Caminho3 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(569.086914, 46.4738922, 752.250793)})
+getgenv().Caminho4 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(597.714478, 46.6738815, 1160.88159)})
+getgenv().Caminho5 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(715.029358, 46.4738922, 1457.61072)})
 
-local Banco = TweenService:Create(Part, TweenInfo.new(1), {CFrame = CFrame.new(323.613647, 46.7999954, 122.810272)})
+getgenv().Banco = TweenService:Create(Part, TweenInfo.new(1), {CFrame = CFrame.new(323.613647, 46.7999954, 122.810272)})
 
-local Rojas1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
-local Rojas2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
+getgenv().Rojas1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
+getgenv().Rojas2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(881.208008, 74.6111832, 1445.24841)})
 
-local Fita1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1102.28711, 46.6738968, 1117.70972)})
-local Fita2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1155.66345, 55.9502411, 1230.16406)})
+getgenv().Fita1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1102.28711, 46.6738968, 1117.70972)})
+getgenv().Fita2 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1155.66345, 55.9502411, 1230.16406)})
 
-local Sucata1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1358.42407, 48.6346054, 1466.41968)})
-local Sucata2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(1051.09534, 46.6739044, 1844.21729)})
+getgenv().Sucata1 = TweenService:Create(Part, TweenInfo.new(2), {CFrame = CFrame.new(1358.42407, 48.6346054, 1466.41968)})
+getgenv().Sucata2 = TweenService:Create(Part, TweenInfo.new(4), {CFrame = CFrame.new(1051.09534, 46.6739044, 1844.21729)})
 
 
 if FuncionarSpawn == true then
